@@ -1,0 +1,95 @@
+Body {
+    color: white;
+    background: rgb(12, 12, 12);
+    margin: 0px;
+    padding: 5px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(12, 3, 134);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(12, 3, 134);
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: rgb(90, 113, 219);
+}
+
+.chamada {
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/15/05/43/starry-night-1093721_1280.jpg);
+    background-position: bottom;
+    background-size: 1500px 900px;
+    opacity: 0.9;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 45px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(12, 8, 71);
+}
+
+p {
+    font-size: 20px;
+
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria1-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(12, 3, 134);
+}
+
+.categoria2-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria2-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria2-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(12, 3, 134);
+}
+
+h2 {
+    color: rgb(13, 3, 148);
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: rgb(90, 113, 219);
+}
